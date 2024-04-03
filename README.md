@@ -15,7 +15,7 @@ To clean the generated translations and extract the proper code from model outpu
 bash scripts/clean_generations.sh deepseekcoder no_test
 ```
 
-The command-line arguments can be changed to perform validation for other models and testing scenarios.
+The command-line arguments can be changed to perform cleaning for other models and testing scenarios (e.g., no_test, w_test, misleading_test).
 
 ### Validation
 To validate the correctness of generated translations, please execute the following:
@@ -24,4 +24,4 @@ To validate the correctness of generated translations, please execute the follow
 bash scripts/test_translation.sh deepseekcoder no_test
 ```
 
-The command-line arguments can be changed to perform validation for other models and testing scenarios.
+The command-line arguments can be changed to perform validation for other models and testing scenarios (e.g., no_test, w_test, misleading_test).
