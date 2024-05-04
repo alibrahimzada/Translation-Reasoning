@@ -27,4 +27,4 @@ bash scripts/test_translation.sh deepseekcoder no_test
 The command-line arguments can be changed to perform validation for other models and testing scenarios (e.g., no_test, w_test, misleading_test).
 
 ### Reasoning
-Please refer to [IER](IER/README.MD) and [SR](SR/README.MD) for execution reasoning scripts and instructions.
+Please refer to [IER](./IER/) and [SR](./SR/) for execution reasoning scripts and instructions.
